@@ -7,6 +7,16 @@ The app has two flows:
 - **Requester** (`/request`) – create and view vacation requests
 - **Validator** (`/`) – review requests, approve or reject them, filter by status, and view vacation stats
 
+## Screenshots
+
+Validator dashboard (`/`):
+
+![Validator dashboard – stats, next approved vacation, and requests table](docs/validator-dashboard.png)
+
+Requester – my requests (`/request`):
+
+![Requester my requests – list of vacation requests with status](docs/requester-my-requests.png)
+
 ---
 
 # Tech stack
@@ -48,7 +58,6 @@ Frontend components are separated into requester and validator areas. Shared UI 
 ```bash
 cp server/.env.example server/.env
 cp client/.env.example client/.env
-cp server/.env.test.example server/.env.test
 ```
 
 ## 2. Install dependencies
